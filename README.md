@@ -1,2 +1,2 @@
-# Come-ando-a-programar-no-github
-Começando a trabalhar em alguns projetos.
+# Comecando-a-programar-no-github
+Começando a trabalhar em alguns projetos. Do Small Basic.
