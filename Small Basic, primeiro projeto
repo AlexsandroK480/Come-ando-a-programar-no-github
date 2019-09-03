@@ -1,0 +1,9 @@
+TextWindow.WriteLine("Texte do if e do else.")
+TextWindow.WriteLine("Estoque da loja.")
+TextWindow.WriteLine("Digite o número de produtos=")
+Estoque=TextWindow.Read()
+If Estoque < 10 Then
+  TextWindow.WriteLine(" Logo terá que compra mais produtos.")
+Else 
+  TextWindow.WriteLine(" Estoque dentro do normal.")
+  EndIf
