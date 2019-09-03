@@ -1,0 +1,13 @@
+senha = "1234"
+tentativas = 0
+While digitado<>senha And tentativas<3
+  TextWindow.WriteLine("Dgite a senha: ")
+  tentativas = tentativas+1
+  digitado = TextWindow.Read()
+EndWhile
+If tentativas = 3 Then
+  TextWindow.WriteLine("Número de tentativas exedido.")
+EndIf
+If senha = "1234" Then
+  TextWindow.WriteLine("Acerto.")
+  EndIf
